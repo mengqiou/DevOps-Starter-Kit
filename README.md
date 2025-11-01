@@ -1,6 +1,7 @@
 # DevOps-Starter-Kit
 
 # 🌏 DevOps Roadmap — De-jargonified Starter Kit
+[English](./README.md) | [中文](./README.zh.md)
 
 > **Goal:** Build, host, and maintain any project without being blocked by infrastructure or DevOps complexity.
 
@@ -11,8 +12,8 @@
 My biggest struggle with DevOps tools is not their usage — it’s their **language**.  
 These tools often use English technical terms that carry vague or overloaded meanings. The semantics can be confusing or even misleading. When I first encountered words like **Terraform**, **Kubernetes**, my brain froze.  
 
-Many engineers invent terms to describe abstractions that made sense to them but not necessarily to newcomers.  
-So this repository is my way to **(organise and untangle)** all of it — not by listing definitions, but by explaining each term *semantically*, *visually*, and *contextually*.  
+Many engineers invent terms to describe abstractions that made sense to them but not necessarily to someone who speak English as their snd language.  
+So this repository is my way to **organise and untangle** all of it — not by listing definitions, but by explaining each term *semantically*, *visually*, and *contextually*.  
 Every concept will have:
 - a plain-language explanation,  
 - a diagram or mental model,  
