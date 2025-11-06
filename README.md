@@ -42,6 +42,7 @@ Each page focuses on one layer of running a project — from local development t
 | ⚙️ **Automation Scripts** | [08_scripts.md](./docs/08_scripts.md) | Shell scripts and Makefiles that glue everything together |
 | 🧰 **DevOps Toolbox** | [09_tool_index.md](./docs/09_tool_index.md) | A glossary of tools explained in human language |
 | 🌐 **Example Stacks** | [10_examples.md](./docs/10_examples.md) | Real examples: Node + Postgres, Flask + Redis, etc. |
+| 🧩 **VSCode Debugger** | [11_vscode_debugger.md](./docs/11_vscode.md) | Step-through debugging for local and containerised apps |
 
 ---
 
