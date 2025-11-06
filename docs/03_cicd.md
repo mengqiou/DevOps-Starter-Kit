@@ -1,4 +1,4 @@
-# ⚙️ 07 — CI/CD (Continuous Integration & Continuous Delivery)
+# ⚙️ 03 — CI/CD (Continuous Integration & Continuous Delivery)
 
 > **Goal:** Understand what CI/CD actually means, why it matters, and how tools like GitHub Actions, Jenkins, and GitLab CI fit together.
 
@@ -108,32 +108,31 @@ This workflow runs automatically on `push`, but you can *also* run it manually f
 
 # 🪽 Webhooks — The Event Bell
 
-Behind the scenes, webhooks connect GitHub → CI/CD tools.
-When you push new code, GitHub sends a **webhook** (a small HTTP POST message) to notify your automation server (e.g. Jenkins, GitHub Actions, CircleCI).
+Behind the scenes, **webhooks** connect GitHub → CI/CD tools.
+When you push new code, GitHub sends a **webhook** — a small HTTP POST message — to notify your automation server (e.g. Jenkins, GitHub Actions, CircleCI) that something has changed.
+
+Here’s the typical flow:
+
+```
 ┌──────────────┐
-│   Developer  │
+│  Developer   │
 └──────┬───────┘
-       │ git push
+       │  git push
        ▼
 ┌──────────────┐
 │   Webhook    │  ← GitHub notifies CI system
 └──────┬───────┘
        ▼
 ┌──────────────┐
-│ Build & Test │  ← Continuous Integration
+│ Build & Test │  ← Continuous Integration (CI)
 └──────┬───────┘
        ▼
 ┌──────────────┐
-│ Deploy & Run │  ← Continuous Delivery
+│ Deploy & Run │  ← Continuous Delivery (CD)
 └──────────────┘
+```
 
-
-**Analogy:**
-A webhook is like a doorbell.
-When GitHub rings it, your CI/CD system wakes up and starts the workflow.
-
-Without webhooks, you’d have to constantly poll for changes (“did someone push?”).
-
+**In short:** when a developer pushes code, GitHub rings the “doorbell” (webhook), triggering the automation pipeline to build, test, and deploy the new version automatically.
 ---
 
 # ☁️ Real-World Integrations — AWS Commands
