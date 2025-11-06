@@ -71,3 +71,24 @@
 ---
 
 ## 🗺️ 全局流程图
+其实整个 DevOps / IT 层的世界，可以拆成五块：
+
+开发与构建层（Build）
+👉 工具：Git, GitHub Actions, Jenkins, CI/CD
+👉 核心思想：版本控制 + 自动化测试 + 构建产物
+
+打包与运行层（Run）
+👉 工具：Docker, Containerd, Kubernetes
+👉 核心思想：隔离、调度、资源管理
+
+监控与通信层（Connect）
+👉 工具：Webhook, WSS, SSE, gRPC, REST
+👉 核心思想：事件通知 + 数据流动 + 实时反馈
+
+基础设施层（Infra）
+👉 工具：AWS, Terraform, Ansible
+👉 核心思想：虚拟化 + 自动化配置 + 权限与安全
+
+可观测与稳定层（Observe）
+👉 工具：Prometheus, Grafana, ELK
+👉 核心思想：日志、指标、报警、可视化反馈
